@@ -11,17 +11,17 @@ The analysis focuses on:
 ## Data Description
 
 The data consists of two CSV files:
-- `first_purchases.csv`
-- `purchases.csv`
+- `first_purchase.csv`
+- `purchase.csv`
 
-### Fields in `first_purchases.csv`:
+### Fields in `first_purchase.csv`:
 - **First Purchase Date:** Date (UTC) when a user made their first purchase.
 - **First Purchase Product Line:** Product line of the first purchase (`Restaurant` or `Retail store`).
 - **User ID:** Unique ID of the user.
 - **Purchase ID:** Unique ID of the purchase.
 - **Venue ID:** Unique ID of the venue where the purchase was made.
 
-### Fields in `purchases.csv`:
+### Fields in `purchase.csv`:
 - **Purchase Date:** Date (UTC) of the purchase.
 - **Product Line:** Product line of the purchase (`Restaurant` or `Retail store`).
 - **User ID:** Unique ID of the user.
@@ -39,7 +39,7 @@ The SQL script (`Cohort_Analysis.sql`) provided in this repository includes the 
 ## How to Run the SQL Script
 
 1. Ensure you have access to a SQL environment (e.g., PostgreSQL, MySQL).
-2. Load the datasets (`first_purchases.csv` and `purchases.csv`) into corresponding tables (`first_purchase` and `purchase`).
+2. Load the datasets (`first_purchase.csv` and `purchase.csv`) into corresponding tables (`first_purchase` and `purchase`).
 3. Run each section of the SQL script in sequence to avoid errors.
 
 ## Visualization
