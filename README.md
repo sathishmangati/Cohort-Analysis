@@ -1,6 +1,6 @@
 # Customer Retention Analysis and Visualization Project for Delivery Platform for Food and Merchandise
 
-This project is part of the BI Developer Internship 2022 assignment. The goal is to analyze customer retention and build insightful visualizations based on provided datasets.
+This project is part of the University assignment. The goal is to analyze customer retention and build insightful visualizations based on provided datasets.
 
 ## Project Overview
 
